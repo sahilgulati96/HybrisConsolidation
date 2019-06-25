@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37161" started-at="2019-06-25T04:49:24Z" finished-at="2019-06-25T04:50:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37161" started-at="2019-06-25T04:49:24Z" finished-at="2019-06-25T04:50:01Z">
+      <class name="sprint1.OrderDetailsLinkTest">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:sprint1.OrderDetailsLinkTest@1d057a39]" name="beforetest" is-config="true" duration-ms="31860" started-at="2019-06-25T04:49:24Z" finished-at="2019-06-25T04:49:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method status="PASS" signature="OrderDetailsPageElement()[pri:0, instance:sprint1.OrderDetailsLinkTest@1d057a39]" name="OrderDetailsPageElement" duration-ms="2864" started-at="2019-06-25T04:49:56Z" finished-at="2019-06-25T04:49:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderDetailsPageElement -->
+        <test-method status="PASS" signature="aftertest(org.testng.ITestResult)[pri:0, instance:sprint1.OrderDetailsLinkTest@1d057a39]" name="aftertest" is-config="true" duration-ms="2385" started-at="2019-06-25T04:49:59Z" finished-at="2019-06-25T04:50:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrderDetailsPageElement status=SUCCESS method=OrderDetailsLinkTest.OrderDetailsPageElement()[pri:0, instance:sprint1.OrderDetailsLinkTest@1d057a39] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- sprint1.OrderDetailsLinkTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
