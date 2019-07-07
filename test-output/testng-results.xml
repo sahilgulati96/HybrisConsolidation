@@ -1,32 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="37161" started-at="2019-06-25T04:49:24Z" finished-at="2019-06-25T04:50:01Z">
+  <suite name="Default suite" duration-ms="53119" started-at="2019-07-07T09:04:22Z" finished-at="2019-07-07T09:05:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="37161" started-at="2019-06-25T04:49:24Z" finished-at="2019-06-25T04:50:01Z">
-      <class name="sprint1.OrderDetailsLinkTest">
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:sprint1.OrderDetailsLinkTest@1d057a39]" name="beforetest" is-config="true" duration-ms="31860" started-at="2019-06-25T04:49:24Z" finished-at="2019-06-25T04:49:56Z">
+    <test name="Default test" duration-ms="53119" started-at="2019-07-07T09:04:22Z" finished-at="2019-07-07T09:05:15Z">
+      <class name="sprint1.SignInTest">
+        <test-method status="PASS" signature="beforetest()[pri:0, instance:sprint1.SignInTest@29774679]" name="beforetest" is-config="true" duration-ms="31957" started-at="2019-07-07T09:04:22Z" finished-at="2019-07-07T09:04:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="OrderDetailsPageElement()[pri:0, instance:sprint1.OrderDetailsLinkTest@1d057a39]" name="OrderDetailsPageElement" duration-ms="2864" started-at="2019-06-25T04:49:56Z" finished-at="2019-06-25T04:49:59Z">
+        <test-method status="FAIL" signature="loginTest()[pri:0, instance:sprint1.SignInTest@29774679]" name="loginTest" duration-ms="20256" started-at="2019-07-07T09:04:54Z" finished-at="2019-07-07T09:05:14Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Kay Outlet] but found [Account Page | kayoutlet]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Kay Outlet] but found [Account Page | kayoutlet]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at sprint1.SignInTest.loginTest(SignInTest.java:59)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OrderDetailsPageElement -->
-        <test-method status="PASS" signature="aftertest(org.testng.ITestResult)[pri:0, instance:sprint1.OrderDetailsLinkTest@1d057a39]" name="aftertest" is-config="true" duration-ms="2385" started-at="2019-06-25T04:49:59Z" finished-at="2019-06-25T04:50:01Z">
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="aftertest(org.testng.ITestResult)[pri:0, instance:sprint1.SignInTest@29774679]" name="aftertest" is-config="true" duration-ms="861" started-at="2019-07-07T09:05:14Z" finished-at="2019-07-07T09:05:15Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=OrderDetailsPageElement status=SUCCESS method=OrderDetailsLinkTest.OrderDetailsPageElement()[pri:0, instance:sprint1.OrderDetailsLinkTest@1d057a39] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=FAILURE method=SignInTest.loginTest()[pri:0, instance:sprint1.SignInTest@29774679] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aftertest -->
-      </class> <!-- sprint1.OrderDetailsLinkTest -->
+      </class> <!-- sprint1.SignInTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

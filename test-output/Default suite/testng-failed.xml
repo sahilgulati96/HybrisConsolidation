@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="sprint3.ApplyPromoCodeOnCartPage">
+      <class name="sprint1.SignInTest">
         <methods>
-          <include name="beforetest"/>
+          <include name="loginTest"/>
           <include name="aftertest"/>
-          <include name="applyInvalidPromoCode"/>
+          <include name="beforetest"/>
         </methods>
-      </class> <!-- sprint3.ApplyPromoCodeOnCartPage -->
+      </class> <!-- sprint1.SignInTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

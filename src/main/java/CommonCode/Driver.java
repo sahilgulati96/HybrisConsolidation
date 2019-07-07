@@ -11,7 +11,7 @@ public class Driver {
 		if (browser.equalsIgnoreCase("chrome")) {
 
 			System.setProperty("webdriver.chrome.driver",
-					"C:\\Users\\sahil.a.gulati\\OneDrive - Accenture\\Testing Stream Training\\Automation Training\\chromedriver74.exe");
+					"C:\\chromedriver.exe");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("disable-infobars");
 			options.addArguments("--incognito");
@@ -20,7 +20,7 @@ public class Driver {
 		if (browser.equalsIgnoreCase("ie")) {
 
 			System.setProperty("webdriver.ie.driver",
-					"C:\\\\Users\\\\sahil.a.gulati\\\\OneDrive - Accenture\\\\Testing Stream Training\\\\Automation Training\\IEDriverServer32.exe");
+					"C:\\IEDriverServer32.exe");
 			return new InternetExplorerDriver();
 		} else
 			System.out.println("Invalid Browser please use other");
